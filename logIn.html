@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="logIn.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <form class="registration">
+
+            <h2>CheckData - Logowanie</h2>
+            <div class="enter-field">
+                <label for="username">Nazwa Użytkownika</label>
+                <input type="text" id = "username" placeholder="wpisz użytkownika">
+                
+            </div>
+            <div class="enter-field">
+                <label for="password">Hasło</label>
+                <input type="password" id = "password" placeholder="wpisz hasło">
+                <i class="fa-regular fa-eye-slash" id = "hide-password"></i>
+                <span id = "span">Niepoprawna nazwa użytkownika lub hasło<span>
+            </div>
+            <button type="button" class = "log-in-button">Zaloguj się</button>
+        </form>
+
+    </div>
+    <script src="logIn.js"></script>
+</body>
+</html>
